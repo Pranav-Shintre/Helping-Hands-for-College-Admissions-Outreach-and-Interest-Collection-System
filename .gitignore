@@ -1,0 +1,17 @@
+# IDE
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment (if any)
+venv/
+.env
+
+# Secrets / credentials
+credentials.json
+token.json
+
+# Local generated files
+PyWhatKit_DB.txt

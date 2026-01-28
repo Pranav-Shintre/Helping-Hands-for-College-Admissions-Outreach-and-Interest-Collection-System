@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.main {
+    background-image: url("Images/Homework-students-HD-picture.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 120vh;
+    position: relative;
+}
+
+.main .box {
+    position: absolute;
+    top: 0;
+    height: 120vh;
+    width: 100%;
+    opacity: 0.54;
+    background-color: black;
+}
+
+.logo{
+    border-radius: 60%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 65px;
+}
+
+nav img {
+    color: red;
+    width: 80px;
+    position: relative;
+    z-index: 10;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul {
+    display: flex;
+    gap: 25px;
+}
+
+ul li a {
+    position: relative;
+    z-index: 10;
+    color: white;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hero {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: 'Jersey 25', 'sans-serif';
+    padding: 0 30px;
+}
+
+.hero span h3 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.hero span h4 {
+    font-size: 22px;
+    font-weight: 200;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.gtstrtd {
+    background-color: rgb(66 229 63);
+    padding: 5px 30px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gtstrtd:hover {
+    background-color: rgb(49, 202, 47);
+}
+
+.gtstrtd ul li a {
+    color: rgb(46, 45, 45);
+    font-size: 20px;
+}
+
+.seperation {
+    height: 7px;
+    background-color: rgb(206, 198, 198);
+}
+
+/* FIRST SECTION */
+.first {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    padding: 60px 0px;
+}
+
+.first div h2 {
+    font-weight: 900;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.first div h4 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.form1 {
+    margin-bottom: 20px;
+}
+.form1 input[type="file"] {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.form1 button {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(66 229 63);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.form1 button:hover {
+    background-color: rgb(12, 124, 12);
+}
+
+.stdBtmMargin {
+    margin-bottom: 8px;
+}
+
+.StudentGRPImg img {
+    width: 30vw;
+    border-radius: 8px;
+}
+
+
+/* SECOND SECTION */
+.WhatsAppImg img {
+    width: 43vw;
+    border-radius: 8px;
+}
+
+.second {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    padding: 60px 0px;
+}
+
+.second div h2 {
+    font-weight: 900;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.second div h4 {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.form2 input[type="file"] {
+    width: 100%;
+}
+.form2 button {
+    display: block;
+    width: 96%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(66 229 63);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.form2 button:hover {
+    background-color: rgb(12, 124, 12);
+}
+
+.btmMargin {
+    margin-bottom: 5px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+.form-control {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+label {
+    display: block;
+}
+
+/* THIRD SECTION */
+.third {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    padding: 60px 0px;
+}
+
+.third div h2 {
+    font-weight: 900;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.third div h4 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.form3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    display: flex;
+    width: 30%;
+    padding: 10px 15px;
+    border: none;
+    background-color: #0275d8;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.btn-primary:hover {
+    background-color: #025aa5;
+}
+
+.GoogleFormImg img {
+    width: 30vw;
+    border-radius: 8px;
+}
+
+/* FOOTER */
+/* footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+}
+
+.footeritem {
+    display: flex;
+    flex-direction: column;
+
+} */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

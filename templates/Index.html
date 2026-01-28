@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eAdmission : Seamless Admissions, Endless Opportunities</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <span>
+                <img class="logo" width="53px" src="../static/Images/logo.jpeg" alt="Company Logo">
+            </span>
+            <div class="right">
+                <ul>
+                    <li><span><a href="#UploadStudentData">Upload Student Data</a></span></li>
+                    <li><span><a href="#WhatsAppMessaging">WhatsApp Messaging</a></span></li>
+                    <li><span><a href="#StudentInterest">Student Interest</a></span></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="box"></div>
+        <div class="hero">
+            <span><h3>Simplify college admissions, Amplify your potential.</h3></span>
+            <span><h4>Navigate the complex world of college admissions effortlessly with our supportive system.</h4></span>
+            <div class="gtstrtd">
+                <ul>
+                    <li><span class="hoveringgtstrtd" ><a href="#UploadStudentData">Get Started</a></span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="seperation"></div>
+    
+    <section id="UploadStudentData" class="first">
+        <div>
+            <h2>Upload Your Student Data CSV File</h2>
+            <h4>To enhance communication and outreach efforts, we encourage you to provide Students WhatsApp numbers. Please upload your WhatsApp contact data below.</h4>
+            <form class="form1" action="/upload_csv" method="POST" enctype="multipart/form-data">
+                <label class="stdBtmMargin" style="font-weight: bold;" for="message">Choose Student Data File :-</label>
+                <input type="file" name="csv_file" accept=".csv">
+                <button type="submit">Upload CSV</button>
+            </form>
+        </div>
+        <div class="StudentGRPImg">
+            <img src="../static/Images/group-college-students-studying-school-library-girl-boy-are-using-laptop_152637-1037.jpg" alt="">
+        </div>
+    </section>
+    
+    <div class="seperation"></div>
+    
+    <section id="WhatsAppMessaging" class="second">
+        <div>
+            <div class="WhatsAppImg">
+                <img src="../static/Images/WhatsApp-Business-API-enables-seamless-communication-with-customers_1.jpg" alt="">
+            </div>
+        </div>
+        <div>
+            <h2>Compose Your Message & Upload College Brochure</h2>
+            <h4>Personalize your communication with prospective students by composing a tailored message to go along with the college brochure. Create your message and upload the brochure.</h4>
+            <form class="form2" action="/send_message" method="POST" enctype="multipart/form-data">
+                <label class="btmMargin" style="font-weight: bold;" for="message">Compose Message :-</label>
+                <div class="input-group mb-3">
+                  <textarea id="message" name="message" rows="4" cols="50" class="form-control" aria-label="With textarea"></textarea>
+                </div>
+            
+                <label class="btmMargin" style="font-weight: bold;" for="attachment">Select Attachment :-</label>
+                <input type="file" id="attachment" name="attachment"><br><br>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <div class="seperation"></div>
+    
+    <section id="StudentInterest" class="third">
+        <div>
+            <h2>Download Student Interest Feedback</h2>
+            <h4>Gain valuable insights into student interest and engagement by downloading the feedback report.</h4>
+            <form class="form3" action="/main" method="GET" >
+                <label class="form3label" for="message">Download the feedback :-</label><br>
+                <a href="/main" class="btn btn-primary">Download CSV</a>
+            </form>
+        </div>
+        <div>
+            <div class="GoogleFormImg">
+                <img src="../static/Images/googleform.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <div class="seperation"></div>
+
+    <!-- <footer>
+        <div class="footeritem">
+            <a href="">FAQ</a>            
+            <a href="">FAQ</a>            
+            <a href="">FAQ</a>            
+            <a href="">FAQ</a>            
+            <a href="">FAQ</a>            
+        </div>
+        
+        <div class="footeritem">
+            <a href="">FAQ</a>            
+            <a href="">FAQ</a>            
+            <a href="">FAQ</a>            
+            <a href="">FAQ</a>            
+            <a href="">FAQ</a>            
+        </div>
+
+        <div class="footeritem">
+            <a href="">FAQ</a>            
+            <a href="">FAQ</a>            
+            <a href="">FAQ</a>            
+            <a href="">FAQ</a>            
+            <a href="">FAQ</a>            
+        </div>
+
+        <div class="footeritem">
+            <a href="">FAQ</a>            
+            <a href="">FAQ</a>            
+            <a href="">FAQ</a>            
+            <a href="">FAQ</a>            
+            <a href="">FAQ</a>            
+        </div>
+    </footer> -->
+
+    <footer>
+        <p>&copy; 2024 Helping Hand For College Admission Outreach & Interest Collection System</p>
+    </footer>
+</body>
+</html>
